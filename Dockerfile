@@ -4,7 +4,7 @@ MAINTAINER Alexander Fritzler <my.personal@gmail.com>
 USER root
 
 RUN apt-get update
-RUN apt-get install -y cmake zlib1g-dev libjpeg-dev libboost-all-dev gcc wget unzip
+RUN apt-get install -y cmake zlib1g-dev libboost-all-dev gcc wget unzip
 RUN apt-get install -y libsdl2-dev 
 RUN apt-get install -y xvfb libav-tools xorg-dev python-opengl
 RUN apt-get install -y libav-tools
